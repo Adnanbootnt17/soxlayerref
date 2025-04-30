@@ -60,7 +60,7 @@ async function registerAndTask(index) {
     console.log(`UserAgent: ${userAgent}`);
     console.log(`PHPSESSID: ${sessionId}`);
 
-    for (let i = 1; i <= 7; i++) {
+    for (let i = 1; i <= 8; i++) {
       const taskConfig = {
         method: 'GET',
         url: `https://s0xlayer.com/dashboard.php?complete_task=${i}`,
